@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dans quelle catégorie êtes-vous ?</h1>
+    <p>Entrez votre année de naissance</p>
+    <input type="text" id="date" /> <!-- le champ pour entrer la date de naissance -->
+    <input type="button" value="calculer" id="valider" onClick="calculs();" /><!-- bouton de validation qui lance le script -->
+
+    <div id="reponse" style="visibility:hidden;"> <!-- div masquée pour le résultat -->
+        <p>Vous êtes dans la catégorie : <span id="macatego"></span>.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
